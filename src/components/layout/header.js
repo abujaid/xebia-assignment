@@ -6,10 +6,6 @@ import user from '../../assets/img/user.png';
 
 class Header extends Component {
 
-    constructor(props) {
-        super(props);
-    }
-
     handleLogout = (e) => {
         e.preventDefault();
         this.props.authenticateUser(false);
