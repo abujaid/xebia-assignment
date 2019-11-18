@@ -5,8 +5,8 @@ import { storeUser, authenticateUser } from '../../store/actions/actions';
 import LoginForm from './form.js';
 
 class Login extends Component {
-    constructor(props, context) {
-        super(props, context);
+    constructor(props) {
+        super(props);
         this.state = {
             username: '',
             password: '',
