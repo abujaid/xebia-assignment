@@ -6,7 +6,7 @@ export default function DashboardReducer(state = {
             {
                 return {
                     ...state,
-                    couter: action.payload
+                    counter: action.payload
                 }
             }
         default:
